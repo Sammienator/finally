@@ -57,7 +57,7 @@
 
 .header {
   
-    height: 120px;  
+    height: 10px;  
 
 }
 .footer{
@@ -65,12 +65,15 @@
     height:300px;
 }
 .main {
-    margin-top: 60px;
+    
     text-align: center;
     height: 100%;
     font-size: 20px;
     text-align: left;
     font-family: 'Uchen', serif;
+}
+h1{
+    font-size: 50px;
 }
 
 .aside1 {
@@ -153,6 +156,7 @@
 @media all and (min-width:800px){
     .main{
         flex: 3;
+        
     }
     .aside1{
         order: 1;
@@ -162,6 +166,7 @@
     }
     .main{
         order: 2;
+       
 
     }
     .footer{
@@ -172,4 +177,5 @@
     .aside{
         flex: 1;
     }
+   
 }
