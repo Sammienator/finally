@@ -72,6 +72,10 @@
     text-align: left;
     font-family: 'Uchen', serif;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 h1{
     font-size: 50px;
