@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
     <title>responsive website
 
     </title>
@@ -16,9 +18,29 @@
         <nav id="hamNav">
             <div class="logo">
                 
+            </div >
+        <!-- (A) HAMBURGER ICON -->
+
+        <div class="container">
+            <div class="data">
+
+                <h1>Uncle Sam</h1>
+
             </div>
-            <!-- (A) HAMBURGER ICON -->
-            <h1>Uncle Sam</h1>
+            <script type="text/javascript">
+                const text = baffle(".data");
+                text.set({
+                     characters : '/█▒ ▓▒▒░▒ ▓/░█▓ █▒▒ ▒▒▒▓< ▓//▒ █▓█ /░░▒ █░>░',
+                     speed: 120
+                });
+                text.start();
+                text.reveal(4000);
+                
+                </script>
+            
+
+        </div>
+          
             <label for="hamburger">&#9776;</label>
             <input type="checkbox" id="hamburger"/>
        
@@ -38,7 +60,24 @@
         <article class="main">
 
             <h2> this is us</h2>
-            <img class="img" src="../images/profile3.jpg" alt="">
+
+
+            <!-- <div class="main-carousel" >
+
+                <div class="cell">
+                    <img class="img" src="../images/test.jpg" alt="">
+                </div>
+
+                <div class="cell"> 
+                    <img class="img" src="../images/profile3.jpg" alt="">
+                </div>
+
+                <div class="cell"> 
+                    <img class="img" src="../images/test.jpg" alt="">
+
+                </div>
+                
+              </div> -->
 
             
 
@@ -91,6 +130,18 @@
 			 </div>
         </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+                    $('.carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround:true,
+            freeScroll:true,
+            });
+    </script>
+             
     
 </body>
 </html>
