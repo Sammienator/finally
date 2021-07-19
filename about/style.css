@@ -80,6 +80,17 @@ h1{
 
 }
 
+.data {
+    font-family: Poppins;
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 12px;
+    font-weight: 800;
+    transform: translate(- 50%, -50%);
+
+}
+
+
 .aside1 {
     background: gold;
 }

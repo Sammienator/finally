@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>responsive website
 
@@ -16,8 +17,23 @@
             <div class="logo">
                 
             </div>
-            <!-- (A) HAMBURGER ICON -->
-            <h1>Uncle Sam</h1>
+              <!-- (A) HAMBURGER ICON -->
+            
+
+              <h1 class="data">Uncle Sam</h1>
+              <script>
+                    const text = baffle(".data");
+      text.set({
+           characters : '/█▒ ▓▒▒░▒ ▓/░█▓ █▒▒ ▒▒▒▓< ▓//▒ █▓█ /░░▒ █░>░',
+           speed: 240
+      });
+      
+      text.start();
+
+      text.reveal(4000);
+              </script>
+
+            
             <label for="hamburger">&#9776;</label>
             <input type="checkbox" id="hamburger"/>
        

@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
     <title>responsive website
 
     </title>
 </head>
+
 <body>
     <div class="wrapper">
     
@@ -18,7 +20,22 @@
                 
             </div>
             <!-- (A) HAMBURGER ICON -->
-            <h1>Uncle Sam</h1>
+            
+
+                <h1 class="data">Uncle Sam</h1>
+                <script>
+                      const text = baffle(".data");
+        text.set({
+             characters : '/█▒ ▓▒▒░▒ ▓/░█▓ █▒▒ ▒▒▒▓< ▓//▒ █▓█ /░░▒ █░>░',
+             speed: 240
+        });
+        
+        text.start();
+
+        text.reveal(4000);
+                </script>
+
+            
             <label for="hamburger">&#9776;</label>
             <input type="checkbox" id="hamburger"/>
        
@@ -44,7 +61,7 @@
 
             </div>
 
-            <div class="center">
+            <div class="right">
                 <p > lorem ipsum. 
                     Your “About me” page forms the first impression of a company or product, puts a name and a face to your business, and gives website visitor the opportunity to develop a connection with you (a good reason for a visitor to stay on your website!), and it is your best chance to convert more visits to enquiries/more enquiries to customers.
                 </p>
@@ -109,6 +126,8 @@
 			 </div>
         </footer>
     </div>
+
+    <script src="../finally/script.js">  </script>
     
 </body>
 </html>
