@@ -72,11 +72,15 @@
     text-align: left;
     font-family: 'Uchen', serif;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     
 }
+.text{
+    
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 
 h1{
@@ -101,10 +105,17 @@ h1{
 .aside1 {
     background: gold;
 }
-.aside2 {
-    background: hotpink;
+.aside2{
+    background-color: white;
 }
-
+.aside2:hover {
+    box-shadow: 3px 2px 3px 2px black;
+    background-color: #368787;
+    
+}
+.aside2 h1{
+    text-decoration: underline;
+}
 
 
 
