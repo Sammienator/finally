@@ -144,7 +144,8 @@ h1{
     line-height: 1rem;
 }
 .footer-content p{
-    max-width:  600px;
+    max-width:  700px;
+   
     margin: 10px auto;
     line-height: 28px;
     font-size: 20px;
@@ -162,7 +163,7 @@ h1{
 }.socials a{
     text-decoration: none;
     color: aqua;
-    font-size: 30px;
+    font-size: 25px;
 }
 .socials a li {
     font-size: 1.8rem;
