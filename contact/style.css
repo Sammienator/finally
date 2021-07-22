@@ -171,7 +171,7 @@ form {
     line-height: 1rem;
 }
 .footer-content p{
-    max-width:  500px;
+    max-width:  700px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
@@ -201,7 +201,7 @@ form {
 .footer-bottom{
     color: black;
 	font-size: bold;
-    padding: 20px 0;
+    
     text-align: center;
 }
 .footer-bottom p{
