@@ -162,9 +162,10 @@ h1{
 }.socials a{
     text-decoration: none;
     color: aqua;
+    font-size: 30px;
 }
 .socials a li {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     transition: color .4s ease;
 
 }
