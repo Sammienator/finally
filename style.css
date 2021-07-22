@@ -181,6 +181,7 @@ h1{
     font-size: 20px;
     word-spacing: 2px;
     text-transform: capitalize;
+    padding: 10px 0;
 }
 .footer-bottom span{
     text-transform: uppercase;
