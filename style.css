@@ -87,6 +87,7 @@ h1{
     font-size: 60px;
 }
 
+
 .data {
     font-family: Poppins;
     color: #fff;
@@ -95,13 +96,11 @@ h1{
     font-weight: 800;
     transform: translate(- 50%, -50%);
 
-}
-  
-  
+
  
 
 
-
+}
 .aside1 {
     background: gold;
 }
